@@ -12,6 +12,3 @@ export default function Student(props) {
     )
 }
 
-Student.propTypes = {
-
-}
