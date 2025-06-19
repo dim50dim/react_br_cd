@@ -2,7 +2,9 @@ export default function Student(props) {
     return (
         <>
             <div>
-                <div>Name : {props.name} </div>
+                 <p>Name  : {props.name} </p>
+                 <p>Age  : {props.age} </p>
+                 <p>Student  : {props.isStudent} </p>
             </div>
         </>
     )
