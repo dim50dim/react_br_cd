@@ -11,17 +11,19 @@ function App() {
         {id:3,name: 'banana',calories: 66},
         {id:4,name: 'pineapple',calories:22},
     ]
-    const vegetables = [
-        {id:5,name:'potatoes',calories: 144},
-        {id:6,name: 'celery',calories: 33},
-        {id:7,name: 'carrots',calories: 366},
-        {id:8,name: 'corn',calories:422},
+
+
+        const vegetables = [
+        // {id:5,name:'potatoes',calories: 144},
+        // {id:6,name: 'celery',calories: 33},
+        // {id:7,name: 'carrots',calories: 366},
+        // {id:8,name: 'corn',calories:422},
     ]
 
   return (
     <>
-     <List items={fruits} category='Fruits' />
-     <List item={vegetables} category='Vegetables'/>
+     {fruits.length > 0 && <List items={fruits} category='Fruits' />  } 
+     {vegetables.length > 0 && <List items={vegetables} category='Vegetables'/> } 
     </>
   )
 }
