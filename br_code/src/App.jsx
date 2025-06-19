@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-       <UserGreeting isLogged= {true} username='BroCode' />
+       <UserGreeting isLogged= {false} username='BroCode' />
     </>
   )
 }
