@@ -20,7 +20,7 @@ function App() {
 
   return (
     <>
-     <List items={fruits} category='Fruits and not Vegetables' />
+     <List items={fruits} category='Fruits' />
      <List item={vegetables} category='Vegetables'/>
     </>
   )

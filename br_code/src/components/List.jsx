@@ -8,9 +8,9 @@ export default function List(props) {
    const category = props.category;
      const itemList = props.items;
 
-    const listItems = itemList.map(fruit => <li key={fruit.id}>
-                                                            {fruit.name} : &nbsp;
-                                                           {fruit.calories}</li>)
+    const listItems = itemList.map(item => <li key={item.id}>
+                                                            {item.name} : &nbsp;
+                                                           {item.calories}</li>)
     return (
         <>
           <h3> {category} </h3>
