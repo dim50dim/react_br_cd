@@ -8,8 +8,8 @@ export default function List() {
     // fruits.sort((a,b) =>  b.name.localeCompare(a.name) )
     // fruits.sort((a,b) => b.calories - a.calories);
 
-    
-    const listItems = fruits.map(fruit => <li key={fruit.id}>
+    const lowCals = fruits.filter(fruit=> fruit.calories < 40)
+    const listItems = lowCals.map(fruit => <li key={fruit.id}>
                                                             {fruit.name} : &nbsp;
                                                            {fruit.calories}</li>)
     return (
