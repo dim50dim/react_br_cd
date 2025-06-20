@@ -21,3 +21,7 @@ export default function List(props) {
       
     )
 }
+List.defaultProps = {
+    category: 'Category',
+    items: [],
+}
