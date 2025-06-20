@@ -9,7 +9,7 @@ function App() {
         {id:1,name:'apple',calories: 44,price:11},
         {id:2,name: 'orange',calories: 33,price: 123},
         {id:3,name: 'banana',calories: 66,price: 55},
-        {id:4,name: 'pineapple',calories:22,price},
+        {id:4,name: 'pineapple',calories:22,price:111},
     ]
 
 
@@ -22,8 +22,8 @@ function App() {
 
   return (
     <>
-     {fruits.length > 0 && <List items={fruits} category='Fruits' price={} />  } 
-     {vegetables.length > 0 && <List items={vegetables} category='Vegetables'/> } 
+      <List items={fruits} category='Fruits'  />  
+     <List items={vegetables} category='Vegetables'/> 
     </>
   )
 }
