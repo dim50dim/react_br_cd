@@ -1,6 +1,6 @@
 export default function ProfilePicture() {
      const imageUrl = './src/assets/react.svg'
-    const handleClick = (e) => e.target.style.dispaly = 'none';
+    const handleClick = (e) => e.target.style.display = 'none';
     
     return (
         <>
