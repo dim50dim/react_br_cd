@@ -11,7 +11,7 @@ export default function List(props) {
     const listItems = itemList.map(item => <li key={item.id}>
                                                             {item.name} : &nbsp;
                                                            {item.calories}: &nbsp;
-                                                           {item.price}
+                                                         {item.name} :  {item.price}
                                                            </li>)
     return (
         <>
