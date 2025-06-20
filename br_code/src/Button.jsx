@@ -1,11 +1,21 @@
 export default function Button() {
-   const handleClick =() => console.log('What is happening');
-   const handleClick2 = (name) => console.log(`${name} stop clicking`);
+    let count = 0;
+   const handleClick =(name) => {
+         if(count < 3) {
+            count++;
+            console.log(`${name} you clicked me ${count} times`);
+            
+         }else {
+            console.log(`${name} stop clicking me`);
+            
+         }
+   }
+
    
 
     return (
         <>
-           <button onClick={() => handleClick2('Max')} >Click me</button>
+           <button onClick={() => handleClick('Max')} >Click me</button>
          
         </>
     )
