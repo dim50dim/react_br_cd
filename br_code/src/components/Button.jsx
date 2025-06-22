@@ -10,7 +10,7 @@ export default function Button() {
             <>
                <h2>what</h2>
 
-            <button onDoubleClick={handleClick}>Click me</button>
+            {/* <button onDoubleClick={handleClick}>Click me</button> */}
             
             </>
         )

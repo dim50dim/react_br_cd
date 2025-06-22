@@ -2,6 +2,9 @@ import { useState } from "react";
 
 export default function Counter() {
     const [count,setCount] = useState(0);
+    const [name,setName]  = useState('man')
+     
+    const naming = () => setCount('not you')
 
     const increment = () => setCount(count + 1);
     const decrement = () => setCount(count - 1);
@@ -9,6 +12,7 @@ export default function Counter() {
     return (
         <>
           <div className="counter-container">
+            <h2 onClick={naming} > {name} </h2>
             <p className="count-display"> {count} </p>
             <button className="counter-button" onClick={decrement}>Decrement</button>
             <button className="counter-button" onClick={reset}>Reset</button>
