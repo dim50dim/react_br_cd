@@ -1,5 +1,6 @@
 
 import './App.css'
+import ColorPicker from './assets/ColorPicker'
 import Button from './components/Button'
 import Counter from './components/Counter'
 import List from './components/List'
@@ -12,9 +13,7 @@ function App() {
 
   return (
     <>
-    <Button/>
-<MyComponent/>
-<Counter />
+       <ColorPicker/>
     </>
   )
 }
