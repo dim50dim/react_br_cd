@@ -1,6 +1,6 @@
 
 import './App.css'
-import Button from './Button'
+import Button from './components/Button'
 import Counter from './components/Counter'
 import List from './components/List'
 import MyComponent from './components/MyComponent'
