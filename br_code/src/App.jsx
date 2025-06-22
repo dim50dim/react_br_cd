@@ -12,6 +12,7 @@ function App() {
 
   return (
     <>
+    <Button/>
 <MyComponent/>
 <Counter />
     </>
