@@ -5,6 +5,12 @@ export default function MyComponent() {
        const [quantity,setQuantity] = useState(1);
        const [comment,setComment] = useState('');
        const [payment, setPayment] = useState('');
+       const [shipping, setShipping] = useState('Delivery'); 
+       function hanldeShippin(e){
+        setShipping(e.target.value);
+       }
+
+
   function handlePayment (e){
     setPayment(e.target.value);
   }
@@ -39,6 +45,18 @@ export default function MyComponent() {
                     <option value="GiftCard"> GiftCard</option>
                 </select>
                 <p>Payment : {payment} </p>
+
+                <label htmlFor="">
+                    <input type='radio'  value='PICK UP' checked={shipping ==="Pick up"}  onChange={hanldeShippin}/>
+              
+                      Pick up
+                </label> <br />
+                <label htmlFor="">
+                    <input type='radio'  value='DELIVERY' checked={shipping ==="Delivery"}  onChange={hanldeShippin}/>
+
+                      Delivery
+                </label>
+                <p> Shipping: {shipping} </p>
              </div>
         </>
     )
