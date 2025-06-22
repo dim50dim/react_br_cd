@@ -1,10 +1,26 @@
 import {  useState } from "react";
 
 export default function MyComponent() {
-   
+
+     const [car,setCar] = useState({year:2023,make: 'Ford',model: 'Mustang'});
+
+      function handleYearChange(e) {
+        setCar( c => ({...c,year: e.target.value}));
+     }
+     function handleMakeChange(e) {
+       setCar(c =>({...c,make: e.target.value}))
+     }
+     function handleModelChange(e) {
+       setCar(c => ({...c,model: e.target.value}))
+     }
       return(
         <>
-        
+        <div>
+          <p> Your favorite car is : {car.make} {car.year} {car.model} </p>
+        </div>
+        <input type="number" value={car.year} onChange={handleYearChange}  /> <br />
+        <input type="text" value={car.make} onChange={handleMakeChange} /> <br />
+        <input type="text" value={car.model} onChange={handleModelChange}  /> <br />
         </>
       )
 }
