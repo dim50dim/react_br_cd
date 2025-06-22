@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -113,7 +113,7 @@ button:focus-visible {
 
 .list-item li:hover{
   cursor: pointer;
-}
+} */
 .counter-container {
   text-align: center;
   font-family: serif;
