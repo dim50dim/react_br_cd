@@ -1,15 +1,16 @@
 import './App.css';
 import React from 'react';
 import  { useState } from 'react';
+import ToDo from './components/ToDo';
 
 
 function App() {
-const [st1,setSt1] = useState('');
-  function task1(e) {
-        setSt1(e.target.value)
+// const [st1,setSt1] = useState('');
+//   function task1(e) {
+//      setSt1(e.target.value)
  
    
-  }
+//   }
   // function task2() {
 
   // }
@@ -40,13 +41,14 @@ const [st1,setSt1] = useState('');
 
   return (
     <>
-      <h1>События</h1>
+    <ToDo/>
+      {/* <h1>События</h1>
       <section>
         <h2>Task 1</h2>
-		<input type="text" onClick={task1}/>
-        <button className="task-1" >Push</button>
+		<input type="text" placeholder='do it'/>
+        <button className="task-1" onClick={task1} >Push Right now</button>
         <div>{st1}</div>
-      </section>
+      </section> */}
       {/* <section>
         <h2>Task 2</h2>
         <div className="task-2"></div>
