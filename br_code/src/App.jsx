@@ -1,13 +1,13 @@
 import './App.css';
 import React from 'react';
-import { useState } from 'react';
+import  { useState } from 'react';
 
 
 function App() {
 const [st1,setSt1] = useState('');
   function task1(e) {
-   setSt1(st1)
-   console.log(e.target.value);
+        setSt1(e.target.value)
+ 
    
   }
   // function task2() {
@@ -43,8 +43,8 @@ const [st1,setSt1] = useState('');
       <h1>События</h1>
       <section>
         <h2>Task 1</h2>
-		<input type="text"/>
-        <button className="task-1" onClick={task1}>Push</button>
+		<input type="text" onClick={task1}/>
+        <button className="task-1" >Push</button>
         <div>{st1}</div>
       </section>
       {/* <section>
