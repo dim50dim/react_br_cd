@@ -4,37 +4,39 @@ import { useState } from 'react';
 
 
 function App() {
-
-  function task1() {
-
+const [st1,setSt1] = useState('');
+  function task1(e) {
+   setSt1(st1)
+   console.log(e.target.value);
+   
   }
-  function task2() {
+  // function task2() {
 
-  }
-  function task3() {
+  // }
+  // function task3() {
 
-  }
-  function task4() {
+  // }
+  // function task4() {
 
-  }
-  function task5() {
+  // }
+  // function task5() {
 
-  }
-  function task6() {
+  // }
+  // function task6() {
 
-  }
-  function task7() {
+  // }
+  // function task7() {
 
-  }
-  function task8() {
+  // }
+  // function task8() {
 
-  }
-  function task9() {
+  // }
+  // function task9() {
 
-  }
-  function task10() {
+  // }
+  // function task10() {
 
-  }
+  // }
 
   return (
     <>
@@ -42,7 +44,7 @@ function App() {
       <section>
         <h2>Task 1</h2>
 		<input type="text"/>
-        <button className="task-1">Push</button>
+        <button className="task-1" onClick={task1}>Push</button>
         <div>{st1}</div>
       </section>
       {/* <section>
