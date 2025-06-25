@@ -1,7 +1,10 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 export default function DigitalClock() {
-   const [] = useState();
+   const [time,setTime] = useState(new Date());
+   useEffect (() => {
+    
+   },[])
    
 
     return(
