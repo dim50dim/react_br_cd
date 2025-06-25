@@ -193,6 +193,8 @@ body{
 }
 .clock-container{
      backdrop-filter: blur(5px);
+     width:100vh ;
+     padding: 10px 0;
 }
 .clock{
   font-size: 6rem;
