@@ -4,7 +4,7 @@ import  { useState } from 'react';
 import ToDo from './components/ToDo';
 import MyComponent from './components/MyComponent';
 import DigitalClock from './components/DigitalClock';
-import ComponentA from './components/ComponentA';
+import ComponentA from './components/ComponentC';
 
 
 function App() {
