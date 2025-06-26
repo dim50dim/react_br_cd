@@ -4,7 +4,9 @@ import  { useState } from 'react';
 import ToDo from './components/ToDo';
 import MyComponent from './components/MyComponent';
 import DigitalClock from './components/DigitalClock';
-import ComponentA from './components/ComponentC';
+import ComponentA from './components/comp/ComponentA';
+
+
 
 
 function App() {
@@ -45,7 +47,7 @@ function App() {
 
   return (
     <>
-     <ComponentA/>
+   <ComponentA/>
 
       {/* <h1>События</h1>
       <section>

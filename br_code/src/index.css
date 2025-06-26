@@ -1,4 +1,4 @@
-/* :root {
+/* /* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -114,7 +114,7 @@ button:focus-visible {
 .list-item li:hover{
   cursor: pointer;
 } */
-.counter-container {
+/* .counter-container {
   text-align: center;
   font-family: serif;
 }
@@ -202,8 +202,8 @@ body{
   font-family: monospace;
   text-shadow:  3px 3px 5px black;
   text-align: center;
-}
+} */ */
 .box{
-  border: 3px solid;
-  
+  border: 3px solid whitesmoke;
+  padding: 25px ;
 }
