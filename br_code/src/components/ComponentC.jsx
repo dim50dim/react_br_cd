@@ -1,8 +1,8 @@
-export default function ComponentA() {
+export default function ComponentC() {
     return (
         <>
          <div className="box">
-                   <h1>ComponentA</h1>
+                   <h1>ComponentC</h1>
          </div>
         </>
     )
