@@ -6,7 +6,7 @@ export default function ComponentD() {
         <>
          <div className="box">
            
-                   <h1>ComponentDDDD</h1>
+                   <h1>Component  D</h1>
          </div>
         </>
     )

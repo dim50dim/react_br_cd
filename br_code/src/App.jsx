@@ -45,7 +45,7 @@ function App() {
 
   return (
     <>
-    <ComponentA/>
+     <ComponentA/>
 
       {/* <h1>События</h1>
       <section>

@@ -4,8 +4,8 @@ export default function ComponentA() {
     return (
         <>
          <div className="box">
-                   <h1>ComponentA</h1>
-                   <ComponentB/>
+                   <h1>Component  A</h1>
+                 
          </div>
         </>
     )
