@@ -3,6 +3,8 @@ import { useEffect, useRef, useState } from "react";
 export default function LastOne() {
 
   const ref = useRef(0);
+  console.log(ref);
+  
 useEffect(() => {
     console.log('COMPONENT RENDER');
     
