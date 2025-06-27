@@ -1,5 +1,5 @@
 import './App.css';
-import React from 'react';
+import React, { use } from 'react';
 import  { useState } from 'react';
 import ToDo from './components/ToDo';
 import MyComponent from './components/MyComponent';
@@ -11,16 +11,17 @@ import LastOne from './components/LastOne';
 
 
 function App() {
-// const [st1,setSt1] = useState('');
-//   function task1(e) {
-//      setSt1(e.target.value)
+const [st1,setSt1] = useState('');
+const [st2,setSt2] = useState(0);
+  function task1(e) {
+     setSt1(e.target.value)
 //  console.log(setSt1(e.target.value));
  
    
-//   }
-  // function task2() {
-
-  // }
+  }
+  function task2() {
+     setSt2(st2++)
+  }
   // function task3() {
 
   // }
@@ -50,19 +51,19 @@ function App() {
     <>
     {/* <LastOne/>/ */}
 
-      {/* <h1>События</h1>
+      <h1>События</h1>
       <section>
         <h2>Task 1</h2>
-		<input type="text" placeholder='do it' onClick={task1}/>
-        <button className="task-1" onClick={task1} >Push Right now</button>
+		<input type="text" placeholder='do it' />
+        <button className="task-1"onClick={task1}  >Push Right now</button>
         <div>{st1}</div>
-      </section> */}
-      {/* <section>
+      </section>
+      /* <section>
         <h2>Task 2</h2>
-        <div className="task-2"></div>
+        <div className="task-2" onMouseEnter={task2}></div>
         <div>{st2}</div>
       </section>
-      <section>
+    {/*<section>
         <h2>Task 3</h2>
         <input type="text" className="task-3" />
         <div>{st3}</div>
