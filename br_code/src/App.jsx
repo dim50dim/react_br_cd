@@ -48,7 +48,7 @@ function App() {
 
   return (
     <>
-    <LastOne/>
+    {/* <LastOne/>/ */}
 
       {/* <h1>События</h1>
       <section>
