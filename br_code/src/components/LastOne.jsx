@@ -7,12 +7,10 @@ export default function LastOne() {
   const inputRef = useRef(null)
 useEffect(() => {
     console.log('COMPONENT RENDER');
-    
 })
 
 function handlClick() {
-    ref.current = ref.current + 1;
-    console.log(ref.current);
+inputRef.current.focus();
     
 }
     return(
