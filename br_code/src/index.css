@@ -209,3 +209,49 @@ body{
   align-items: center;
   background-color: lightblue;
 }
+.stopwatch{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid;
+  border-radius: 50px;
+  background-color: wheat;
+  padding:  30px;
+}
+.display{
+  font-size: 5rem;
+  font-family: monospace;
+  font-weight: bold;
+  color: lightcoral;
+  text-shadow: 2px 2px 2px black;
+  margin-bottom:25px ;
+}
+.controls button{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20p;
+  min-width: 125px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+ 
+}
+.start-button{
+  background-color: greenyellow;
+}
+.start-button:hover{
+  background-color: green;
+}
+.stop-button{
+  background-color:  coral;
+}
+.stop-button:hover{
+  background-color: crimson;
+}
+.reset-button{
+  background-color: lightskyblue;
+}
+.reset-button:hover{
+  background-color: blue;
+}
