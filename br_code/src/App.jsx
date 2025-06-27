@@ -49,7 +49,6 @@ function App() {
     <>
     
 
-
       {/* <h1>События</h1>
       <section>
         <h2>Task 1</h2>
