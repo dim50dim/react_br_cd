@@ -9,15 +9,15 @@ useEffect(() => {
     console.log('COMPONENT RENDER');
 })
 
-function handlClick() {
+function handleClick() {
 inputRef.current.focus();
-    
+    inputRef.current.style.backgroundColor = 'red'
 }
     return(
         <>
                 <input type="text" ref={inputRef} />
            <div>
-            <button onClick={handlClick}>Click me</button>
+            <button onClick={handleClick}>Click me</button>
            </div>
         </>
     )
