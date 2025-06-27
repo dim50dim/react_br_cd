@@ -11,17 +11,17 @@ import LastOne from './components/LastOne';
 
 
 function App() {
-const [st1,setSt1] = useState('');
-const [st2,setSt2] = useState(0);
-  function task1(e) {
-     setSt1(e.target.value)
-//  console.log(setSt1(e.target.value));
+// const [st1,setSt1] = useState('');
+// const [st2,setSt2] = useState(0);
+//   function task1(e) {
+//      setSt1(e.target.value)
+// //  console.log(setSt1(e.target.value));
  
    
-  }
-  function task2() {
-     setSt2(st2++)
-  }
+//   }
+//   function task2() {
+//      setSt2(st2++)
+//   }
   // function task3() {
 
   // }
@@ -49,7 +49,7 @@ const [st2,setSt2] = useState(0);
 
   return (
     <>
-    {/* <LastOne/>/ */}
+    {/* <LastOne/>/
 
       <h1>События</h1>
       <section>
@@ -62,7 +62,7 @@ const [st2,setSt2] = useState(0);
         <h2>Task 2</h2>
         <div className="task-2" onMouseEnter={task2}></div>
         <div>{st2}</div>
-      </section>
+      </section> */}
     {/*<section>
         <h2>Task 3</h2>
         <input type="text" className="task-3" />
