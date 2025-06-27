@@ -5,6 +5,7 @@ import ToDo from './components/ToDo';
 import MyComponent from './components/MyComponent';
 import DigitalClock from './components/DigitalClock';
 import ComponentA from './components/comp/ComponentA';
+import LastOne from './components/LastOne';
 
 
 
@@ -47,7 +48,7 @@ function App() {
 
   return (
     <>
-    
+    <LastOne/>
 
       {/* <h1>События</h1>
       <section>
