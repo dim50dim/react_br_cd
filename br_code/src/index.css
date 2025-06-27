@@ -203,7 +203,9 @@ body{
   text-shadow:  3px 3px 5px black;
   text-align: center;
 } */ */
-.box{
-  border: 3px solid;
-  padding: 25px ;
+.body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightblue;
 }
