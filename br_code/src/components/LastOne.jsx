@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 
 export default function LastOne() {
 
-  const ref = useRef(0);
+  const ref = useRef('Ibiza');
   console.log(ref);
   
 useEffect(() => {
@@ -17,6 +17,7 @@ function handlClick() {
 }
     return(
         <>
+        
            <div>
             <button onClick={handlClick}>Click me</button>
            </div>
