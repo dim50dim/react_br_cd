@@ -3,8 +3,10 @@ import {  useState } from "react"
 export default function MyComponent() {
     const [name, setName] = useState('Max');
     const [age,setAge] = useState(0);
+    const [isEmployed, setIsEmployed] = useState(false);
+    const isWorking = () => setIsEmployed(true);
     const updateName =() => setName('John Doy');
-    const incrementAge =() => setAge(age + 1);
+    const incrementAge =() => setAge(age + 2);
     return (
         <>
             <div>
@@ -14,6 +16,10 @@ export default function MyComponent() {
             <div>
                 <p> Age: {age} </p>
                 <button onClick={incrementAge} >Set Age</button>
+            </div>
+            <div>
+                <p> Is Employed: {isEmployed} </p>
+                <button onClick={isWorking} >Set Status</button>
             </div>
         </>
     )
