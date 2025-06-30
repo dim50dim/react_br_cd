@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 export default function MyComponent() {
-    const [name, setName] = useState();
+    const [name, setName] = useState('Max');
     const updateName =() => setName('John Doy');
     return (
         <>

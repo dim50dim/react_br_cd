@@ -50,7 +50,7 @@ function App() {
 
   return (
     <>
-  
+   <MyComponent/>
     {/* <LastOne/>/
 
       <h1>События</h1>
