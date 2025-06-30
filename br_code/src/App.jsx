@@ -50,7 +50,7 @@ function App() {
 
   return (
     <>
-    <ToDo/>
+  
     {/* <LastOne/>/
 
       <h1>События</h1>
