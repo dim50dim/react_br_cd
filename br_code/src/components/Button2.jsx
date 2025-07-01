@@ -13,7 +13,7 @@ export default function Button2() {
        }
     return(
         <>
-           <button >We Try</button>
+           <button  onClick={ () => handleClick('Max')} >We Try</button>
         </>
     )
 }
