@@ -7,6 +7,7 @@ import DigitalClock from './components/DigitalClock';
 import ComponentA from './components/comp/ComponentA';
 import LastOne from './components/LastOne';
 import StopWatch from './components/StopWatch';
+import Button from './components/Button';
 
 
 
@@ -50,7 +51,7 @@ function App() {
 
   return (
     <>
-   <MyComponent/>
+<Button/>
     {/* <LastOne/>/
 
       <h1>События</h1>
