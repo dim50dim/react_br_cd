@@ -1,15 +1,19 @@
 export default function Button2() {
     let count = 0;
-      const handleClick =()=> console.log('where do you go now');
-      const handleClick2 =(name)=> {
-        if( count <= 4) console.log(`${name} you did it ${count} times`);
+      
+      const handleClick =(name)=> {
+        if( count <= 4) {
+                 count++;
+                 console.log(`${name} you did it ${count} times`);
+        
       }else{
-        
-        
+           console.log(`${name} my boy you did it too many times`);
+           
       }
     return(
         <>
-           <button onClick={handleClick}>We Try</button>
+           <button onClick={ handleClick('Max')}>We Try</button>
         </>
     )
 }
+ }
