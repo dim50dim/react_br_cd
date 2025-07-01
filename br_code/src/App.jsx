@@ -8,6 +8,7 @@ import ComponentA from './components/comp/ComponentA';
 import LastOne from './components/LastOne';
 import StopWatch from './components/StopWatch';
 import Button from './components/Button';
+import Button2 from './components/Button2';
 
 
 
@@ -51,7 +52,7 @@ function App() {
 
   return (
     <>
-<Button/>
+<Button2/>
     {/* <LastOne/>/
 
       <h1>События</h1>
