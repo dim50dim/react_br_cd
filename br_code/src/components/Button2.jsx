@@ -10,10 +10,11 @@ export default function Button2() {
            console.log(`${name} my boy you did it too many times`);
            
       }
+       }
     return(
         <>
-           <button onClick={ handleClick('Max')}>We Try</button>
+           <button >We Try</button>
         </>
     )
 }
- }
+ 
