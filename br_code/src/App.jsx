@@ -16,12 +16,12 @@ import Button2 from './components/Button2';
 function App() {
 // const [st1,setSt1] = useState('');
 // const [st2,setSt2] = useState(0);
-//   function task1(e) {
-//      setSt1(e.target.value)
-// //  console.log(setSt1(e.target.value));
+  function task1(e) {
+     setSt1(e.target.value)
+ console.log(setSt1(e.target.value));
  
    
-//   }
+  }
 //   function task2() {
 //      setSt2(st2++)
 //   }
@@ -52,9 +52,8 @@ function App() {
 
   return (
     <>
-<Button/>
-    {/* <LastOne/>/
 
+{/* 
       <h1>События</h1>
       <section>
         <h2>Task 1</h2>
@@ -62,11 +61,11 @@ function App() {
         <button className="task-1"onClick={task1}  >Push Right now</button>
         <div>{st1}</div>
       </section>
-      /* <section>
+       /* <section>
         <h2>Task 2</h2>
         <div className="task-2" onMouseEnter={task2}></div>
         <div>{st2}</div>
-      </section> */}
+      </section>  */}
     {/*<section>
         <h2>Task 3</h2>
         <input type="text" className="task-3" />
