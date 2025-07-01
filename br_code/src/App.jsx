@@ -52,7 +52,7 @@ function App() {
 
   return (
     <>
-<Button2/>
+<Button/>
     {/* <LastOne/>/
 
       <h1>События</h1>
