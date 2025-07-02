@@ -2,6 +2,7 @@ import {  useState,useEffect } from "react"
 
 export default function MyComponent() {
  const [count,setCount] = useState(0);
+ const [color,setColor] = useState('green');
  useEffect(() => {
      document.title = `Count : ${count}`
  })
@@ -11,11 +12,15 @@ export default function MyComponent() {
  function subtractCount () {
     setCount(c =>c - 1)
   }
+  function changeColor() {
+    setColor(c => c === 'green' ? 'red' : 'gree' )
+  }
     return (
         <>
-               <p> Count : {count}</p>
+               <p style> Count : {count}</p>
                <button  onClick={addCount}> ADD </button>
-               <button  onClick={subtractCount}> Substract </button>
+               <button  onClick={subtractCount}> Substract </button> <br />
+               <button onClick={changeColor}> Change color</button>
         </>
     )
 }
