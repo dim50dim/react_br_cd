@@ -3,9 +3,9 @@ import {  useState,useEffect } from "react"
 export default function MyComponent() {
  const [count,setCount] = useState(0);
  const [color,setColor] = useState('green');
- useEffect(() => {
+//  useEffect(() => {
      document.title = `Count : ${count} ${color}`
- },[count,color])
+//  },[count,color])
  function addCount () {
     setCount(c => c +1)
   }
