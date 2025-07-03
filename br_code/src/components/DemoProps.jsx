@@ -5,7 +5,7 @@ export default function DemoProps() {
     useEffect(() => {
         console.log('The count is ' , count);
         
-    },[]);
+    },[count]);
     const increment =() => setCount(count + 1);
     const decrement =() => setCount(count - 1);
     return(
