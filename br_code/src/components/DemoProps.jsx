@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 export default function DemoProps() {
     const [count,setCount] = useState(0);
     useEffect(() => {
+        console.log('The count is ' , count);
         
     },[]);
     const increment =() => setCount(count + 1);
