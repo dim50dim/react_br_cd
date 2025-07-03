@@ -1,7 +1,8 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function DemoProps() {
     const [count,setCount] = useState(0);
+    useEffect(() => {},[]);
     const increment =() => setCount(count + 1);
     const decrement =() => setCount(count - 1);
     return(
