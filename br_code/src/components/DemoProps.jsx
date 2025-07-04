@@ -2,12 +2,7 @@ import { useEffect, useState } from "react";
 
 export default function DemoProps() {
     const [count,setCount] = useState(0);
-    useEffect(() => {
-        console.log('The count is ' , count);
-        return ()=> {
-            console.log('i AM BEING CLEANED UP');
-            
-        }    },[count]);
+ 
     const increment =() => setCount(count + 1);
     const decrement =() => setCount(count - 1);
     return(
