@@ -2,15 +2,18 @@ import { useRef, useState } from "react";
 
 export default function DemoProps() {
     const [count,setCount] = useState(0);
- const countRef = useRef(0);
+ const countRef = useRef(8);
     const increment =() => {
         setCount(count + 1);
         countRef.current++;
 
         console.log('State :', count);
+        console.log('Ref :' ,countRef.current);
+        
+        
         
     }
-    const decrement =() => setCount(count - 1);
+    
     return(
         <>
            <div className="tutorial">
