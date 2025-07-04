@@ -3,7 +3,13 @@ import { useRef, useState } from "react";
 export default function DemoProps() {
     const [count,setCount] = useState(0);
  const countRef = useRef(0);
-    const increment =() => setCount(count + 1);
+    const increment =() => {
+        setCount(count + 1);
+        countRef.current++;
+
+        console.log('State :', count);
+        
+    }
     const decrement =() => setCount(count - 1);
     return(
         <>
