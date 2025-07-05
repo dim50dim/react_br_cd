@@ -1,4 +1,4 @@
-export default function Custom(){
+export default function useCustom(){
 
     return (
         <>
