@@ -1,8 +1,8 @@
-export default function useCustom(){
+import { useEffect, useState } from "react"
 
-    return (
-        <>
-           
-        </>
-    )
+export default function useCustom(){
+     const [value, setValue] = useState('');
+     useEffect(() => {
+        setValue('Updated')
+     },[]);
 }
