@@ -1,4 +1,5 @@
 import './App.css';
+import Demo from './components/comp/Demo';
 import DemoProps from './components/DemoProps';
 
 
@@ -11,7 +12,7 @@ function App() {
 
   return (
     <>
-<DemoProps/>
+<Demo/>
     </>
   )
 
